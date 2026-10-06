@@ -1,0 +1,2 @@
+// 9. PathLang no tiene cadenas de texto
+mostrar "ruta";

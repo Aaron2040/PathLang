@@ -1,0 +1,2 @@
+// 11. Falta retornar en la heurística
+heuristica H(a, b) { 0; }

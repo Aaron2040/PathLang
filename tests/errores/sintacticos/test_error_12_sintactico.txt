@@ -1,0 +1,2 @@
+// 12. Falta entonces
+regla R { si (a == b) { x := 1; } }

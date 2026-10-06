@@ -1,0 +1,6 @@
+// Prueba Válida 1 (Léxica 1 + Sintáctica 1)
+grafo Cusco { 
+    nodo A (-12.043, -77.028); 
+    nodo B (1, 1); 
+    arista A -> B : 3 km; 
+}

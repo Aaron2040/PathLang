@@ -1,0 +1,3 @@
+// 9. Falta la llave de cierre
+grafo Lima {
+    nodo A (0, 0);

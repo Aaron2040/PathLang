@@ -1,0 +1,14 @@
+// Prueba Válida 4 (Léxica 4 + Sintáctica 4)
+grafo Lima { nodo A(0,0); nodo B(1,1); }
+heuristica Manhattan(a,b) { retornar 1; }
+
+regla Anidada { 
+    si (a == 1) entonces { 
+        si (b < c) entonces { 
+            x := 1; 
+        } 
+    } sino { 
+        x := 2; 
+    } 
+}
+buscar ruta r desde A hasta B en Lima usando Manhattan a las 18:00;

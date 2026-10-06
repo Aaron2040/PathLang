@@ -1,0 +1,8 @@
+// Prueba Válida 6 (Léxica 6 + Sintáctica 6)
+grafo Lima { nodo A(0,0); nodo B(1,1); }
+heuristica Euclideana(a,b) { retornar 1; }
+regla trafico {
+    es_meta := (f_score <= limite) != 1;
+}
+buscar ruta r desde A hasta B en Lima usando Euclideana con trafico a las 08:30; 
+mostrar r;

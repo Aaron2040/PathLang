@@ -1,0 +1,2 @@
+// 8. Falta ; en la declaración del nodo
+grafo Lima { nodo A (0, 0) }

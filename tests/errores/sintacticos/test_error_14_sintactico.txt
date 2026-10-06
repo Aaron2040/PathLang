@@ -1,0 +1,2 @@
+// 14. sino sin si
+regla R { sino { x := 1; } }

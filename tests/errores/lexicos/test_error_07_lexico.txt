@@ -1,0 +1,4 @@
+// 7. Símbolo fuera del alfabeto
+grafo G {
+    nodo A (0, 0) @;
+}

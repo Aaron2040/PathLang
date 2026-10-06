@@ -1,0 +1,2 @@
+// 17. Tipo de elemento inválido
+regla R { para cada ruta r de Lima { } }

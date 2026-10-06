@@ -1,0 +1,5 @@
+// Error 1: uso de un nombre no declarado
+grafo Lima dirigido {
+    nodo A (0, 0);
+    arista A -> Z : 4 min; // <- error: el nodo Z no fue declarado
+}

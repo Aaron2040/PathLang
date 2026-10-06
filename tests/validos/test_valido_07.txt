@@ -1,0 +1,18 @@
+// Prueba Válida 7 (Sintáctica 7 completa)
+grafo Lima dirigido {
+    nodo A (-12.043, -77.028);
+    nodo B (-12.046, -77.030);
+    arista A -> B : 15 min tipo avenida;
+}
+heuristica Manhattan(actual, meta) { 
+    retornar abs(actual.lat - meta.lat); 
+}
+regla HoraPunta {
+    para cada arista e de Lima {
+        si hora entre 17:00 y 19:00 entonces { 
+            e.peso := e.peso * 2; 
+        }
+    }
+}
+buscar ruta r desde A hasta B en Lima usando Manhattan a las 18:00;
+mostrar r;

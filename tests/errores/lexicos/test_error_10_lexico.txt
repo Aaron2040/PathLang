@@ -1,0 +1,4 @@
+// 10. ! solo es válido dentro de !=
+regla R {
+    e.peso := a ! b;
+}

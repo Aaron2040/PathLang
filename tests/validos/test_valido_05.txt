@@ -1,0 +1,10 @@
+// Prueba Válida 5 (Léxica 5 + Sintáctica 5)
+grafo Lima { nodo A (0,0); nodo B (1,1); arista A -> B : 1 min; }
+regla Reinicio { 
+    nodos := 4; // reinicia el contador
+    para cada nodo n de Lima { 
+        para cada arista e de Lima { 
+            e.peso := e.peso * 2; 
+        } 
+    } 
+}

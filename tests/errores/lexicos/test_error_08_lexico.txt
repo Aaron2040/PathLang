@@ -1,0 +1,4 @@
+// 8. Otro símbolo no reconocido
+regla R {
+    costo := 3 # 4;
+}

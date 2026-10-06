@@ -1,0 +1,2 @@
+// 13. Expresión incompleta
+regla R { x := 3 + ; }

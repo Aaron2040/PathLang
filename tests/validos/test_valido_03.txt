@@ -1,0 +1,8 @@
+// Prueba Válida 3 (Léxica 3 + Sintáctica 3)
+regla Tarde { 
+    si hora entre 17:00 y 19:00 entonces { 
+        factor := 2; 
+    } sino { 
+        factor := 1; 
+    } 
+}

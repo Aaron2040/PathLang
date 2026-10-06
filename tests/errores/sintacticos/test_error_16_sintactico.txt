@@ -1,0 +1,2 @@
+// 16. Se usó = en lugar de :=
+regla R { x = 5; }
